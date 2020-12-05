@@ -36,3 +36,4 @@ jobs:
 
       - name: Deploy using Surge
         run: surge ./ bootcamp2020-asad.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        # ./ means issi directory ki root director pr index.html file utha lo.
